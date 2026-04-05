@@ -1,0 +1,28 @@
+{
+    "name": "jammmmm/procco",
+    "description": "Input-driven process execution agent",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Jammmmm",
+            "homepage": "https://github.com/Jammmmm/"
+        }
+    ],
+    "type": "project",
+    "license": "GPL-3.0-only",
+    "require": {
+        "php": "^8.4",
+        "symfony/mailer": "^8.0",
+        "symfony/mime": "^8.0",
+        "monolog/monolog": "^3.10",
+        "nesbot/carbon": "^3.11",
+        "symfony/console": "^8.0",
+        "symfony/process": "^8.0",
+        "webklex/php-imap": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Procco\\": "src/"
+        }
+    }
+}
