@@ -15,7 +15,7 @@ The input source is determined by the configured input handler. The built-in han
 
 ```bash
 git clone https://github.com/Jammmmm/Procco.git
-cd procco
+cd Procco
 composer install
 cp config.example.php /path/to/myconfig.php
 # Edit myconfig.php with your settings
